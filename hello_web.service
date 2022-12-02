@@ -1,0 +1,14 @@
+[Unit]
+Description=Start node application in as2/src using nodejs
+Wants=network-online.target
+Requires=network-online.target
+
+
+[Service]
+User=astartes
+Group=astartes
+ExecStart=/home/astartes/.volta/bin/node /home/astartes/as2/src/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

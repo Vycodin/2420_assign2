@@ -1,0 +1,5 @@
+http://24.199.71.9 {
+	root * /var/www
+	reverse_proxy /app localhost:5050
+	file_server
+}
