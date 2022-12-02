@@ -54,7 +54,7 @@ This guide operates under the assumption you already have WSL and your droplets 
 3.3
     Use **vim touch index.js** to create a javascript file within your src directory<br>
     copy the following code into the index.js file<br>
-    ```
+    
     // Require the framework and instantiate it 
     const fastify = require('fastify')({ logger: true })
 
@@ -73,7 +73,7 @@ This guide operates under the assumption you already have WSL and your droplets 
             }
         }
     start()
-    ```
+    
 3.4
     Test your index.js file locally by running the command **node index.js** <br>
     Go into a webbrowser of choice and enter the url **localhost:5050** <br>
