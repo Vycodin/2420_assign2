@@ -79,6 +79,7 @@ This guide operates under the assumption you already have WSL and your droplets 
     Go into a webbrowser of choice and enter the url **localhost:5050** <br>
     You should get a blank page with the words "hello: 'server x'" <br>
     if all is succesful you can use rsync (or any other file transfer option) to move the html and src directory into your two droplets<br>
+    [Alt text](img/helloserver.png)
     
 
 
