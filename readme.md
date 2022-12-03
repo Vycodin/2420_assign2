@@ -209,7 +209,7 @@ replace the IP address with the one associated with your load balancer<br>
     you can continously refresh the browser and you should see 2 different responses in accordance to the two different servers which are running slightly different "index.html" and "index.js" files.
 
 8.3<br>
-    Congratulations You have completed this tutorial and created your own reverse proxy server!
+    Congratulations You have completed this tutorial and created your own reverse proxy server!!!
 
     
 
